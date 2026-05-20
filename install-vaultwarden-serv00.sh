@@ -97,7 +97,7 @@ check_basic_env() {
 collect_inputs() {
   say "请输入部署信息"
 
-  printf "域名，例如 p2.442277.xyz: "
+  printf "域名，例如 bit.warden.com: "
   read DOMAIN
   if [ -z "$DOMAIN" ]; then
     err "域名不能为空"
