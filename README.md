@@ -5,7 +5,7 @@
 ## 使用方式
 
 ```sh
-fetch -o install-vaultwarden-serv00.sh https://raw.githubusercontent.com/你的用户名/你的仓库/main/install-vaultwarden-serv00.sh
+fetch -o install-vaultwarden-serv00.sh https://raw.githubusercontent.com/chengtz/-vaultwarden--serv00-/main/install-vaultwarden-serv00.sh
 chmod +x install-vaultwarden-serv00.sh
 ./install-vaultwarden-serv00.sh
 ```
