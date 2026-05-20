@@ -18,7 +18,7 @@ sh install-vaultwarden-serv00.sh
 
 ## 脚本会询问
 
-- 域名，例如 `p2.442277.xyz`
+- 域名，例如 `warden.123123.xyz`
 - 本地端口，例如 `12080`
 - 是否允许首次注册
 - `ADMIN_TOKEN`，可留空自动生成
@@ -59,8 +59,8 @@ Vaultwarden 必须 HTTPS 才能正常工作。
 一般命令：
 
 ```sh
-IP=$(dig +short p2.442277.xyz | tail -n 1)
-devil ssl www add $IP le le p2.442277.xyz
+IP=$(dig +short 你的玉米 | tail -n 1)
+devil ssl www add $IP le le 你的玉米
 devil ssl www list
 ```
 
