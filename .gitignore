@@ -1,0 +1,6 @@
+.env
+data/
+logs/
+*.pid
+*.pkg
+pkg-extract/
